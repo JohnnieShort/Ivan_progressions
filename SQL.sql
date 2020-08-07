@@ -34,6 +34,7 @@ CREATE TABLE "User" (
   "nickname" varchar(255),
   "login" varchar(255),
   "password" varchar(255),
+  "is_admin" bool,
   PRIMARY KEY ("id")
 );
 
